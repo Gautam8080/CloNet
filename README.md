@@ -1,5 +1,7 @@
 ## CloNet
-Introducing CloNet - a novel concept of Personalized Clothing Recommendations from Closet using Neural Networks. 
+A novel concept of Personalized Clothing Recommendations from Closet using Neural Networks. 
+
+![CloNet - initially published as styleAI](https://github.com/Gautam8080/Pet-Portal/blob/master/pet-portal.jpg?raw=true)
 
 # Overview
 CloNet is an intelligent AI system that provides daily recommendations to users with deep learning, based on personal preferences and fashion trends, using regular photos of the user wearing the clothes or photos of user clothes in general. Thus, the system will require minimum effort on a user’s end. Recommendations are drawn from the user-owned garments, and not from outside. The method broadly involves two algorithms - preparation of user inventory using clothing detection on user photos and recommendation of outfit from the wardrobe. At a minimum, the user is required to upload his photos, and the rest is taken care of by the algorithm which can yield convincing outfit recommendations based on fashion trends every day. The system further learns from user outfit styles and patterns every day.
@@ -26,3 +28,5 @@ The next steps involve commercialization of the product into a user-centric appl
 We used the public Deep Fashion data that has over 161000 images with a domain of 51 categories of clothes in every possible environment. We performed the data cleaning on the same. We also tried to reduce the categories to make it more generalised instead. 
 Model – 
 The prepared dataset was trained on the inception network implemented with the help of Tensorflow with pretrained weights for object detection. The outcome of network were bounding boxes on images. The bounding boxes around images are cropped and saved in different directories based on their predicted categories.
+
+*The code has not been updated since 2018. Contact me on Github for more info.
